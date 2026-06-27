@@ -1,4 +1,4 @@
-package Exercise5;
+package Exercise6;
 
 public interface Manage <T>{
     void add(T item);

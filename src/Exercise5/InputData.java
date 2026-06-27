@@ -1,4 +1,4 @@
-package Exercise4;
+package Exercise5;
 
 import java.util.Scanner;
 
@@ -6,7 +6,7 @@ public class InputData {
     public static String getString(Scanner scanner , String suggest) {
         String input = "" ;
         do {
-            System.out.println(suggest);
+            System.out.print(suggest);
             input = scanner.nextLine();
             if(input.isEmpty()){
                 System.out.println("Vui lòng ko để trống !");
@@ -19,7 +19,7 @@ public class InputData {
         String rs = "" ;
 
         do {
-            System.out.println(suggest);
+            System.out.print(suggest);
             rs = scanner.nextLine();
             try {
                 if (rs.isEmpty()){
@@ -41,7 +41,7 @@ public class InputData {
         String rs = "" ;
 
         do {
-            System.out.println(suggest);
+            System.out.print(suggest);
             rs = scanner.nextLine();
             try {
                 if (rs.isEmpty()){
